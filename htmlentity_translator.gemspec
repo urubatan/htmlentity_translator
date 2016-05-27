@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = HtmlentityTranslator::VERSION
   spec.authors       = ["Rodrigo Urubatan"]
   spec.email         = ["rodrigo@urubatan.com.br"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{This gem is a simple library to help add or remove HTML entities to a string}
+  spec.description   = %q{This gem is a simple libraty to help add or remoge HTML entities to a string the usage is simple "&amp;this needs to be removed&aacute;".decode_entities will remove all HTML entities, and "á now I need it encoded".encode_entities will replace non printable ascii with the corresponding HTML entitites}
   spec.homepage      = ""
   spec.license       = "MIT"
 
